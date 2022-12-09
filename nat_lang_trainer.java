@@ -1,5 +1,8 @@
 import java.util.HashMap;
 
+// To use this trainer, create a 'train' method with the text you want to use
+// then use the 'getFrequency' method to see the frequency of a specific word
+
 public class NaturalLanguageTrainer {
   // A map to store the frequency of each word in the training data
   private HashMap<String, Integer> wordFrequencies;
